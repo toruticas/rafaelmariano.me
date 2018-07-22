@@ -5,6 +5,7 @@ import { Flex, Box } from 'grid-styled'
 
 import Layout from "../components/Layout"
 import Rating from "../components/Rating"
+import Divider from "../components/Divider"
 
 import Image from "../components/atoms/Image"
 import Col from "../components/atoms/Col"
@@ -140,7 +141,10 @@ class Index extends React.Component {
       <Layout>
         <Flex flexWrap="wrap">
           <Box pl={32} width={1}>
-            <Title>Rafael Mariano (Olinda)</Title>
+            <Title>
+              Rafael Mariano (Olinda)
+              {/* <Divider width={400} /> */}
+            </Title>
           </Box>
 
           <Box p={16} pt={0} width={[1, 5/12, 5/12, 1/3 ]}>

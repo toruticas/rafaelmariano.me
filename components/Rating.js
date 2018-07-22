@@ -5,7 +5,7 @@ const Hexagon = styled.div`
   position: relative;
   width: 14px;
   height: 8.08px;
-  background-color: ${props => props.active ? "#64C7CC" : "#bde7e9"};
+  background-color: ${props => props.active ? "#397AD7" : "#ECEDEF"};
   margin: 4.04px 0;
   box-shadow: 0 0 4px rgba(0,0,0,0.6);
   ${'' /* top: 3px; */}
@@ -49,10 +49,9 @@ const Hexagon = styled.div`
 export default ({ name, note }) => (
   <div>
     {name}
-
     <span style={{ float: "right"}}>
       {[0,1,2,3,4,5,6,7,8,9].map((i) => (
-        <Hexagon active={note > i} key={i}><span></span></Hexagon>
+        <Hexagon active={note > i} key={`${name}-${i}`}><span></span></Hexagon>
       ))}
     </span>
   </div>

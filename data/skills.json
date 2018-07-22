@@ -1,120 +1,149 @@
 {
   "skills": {
-    "Languages": [
-      {
-        "name": "Javascript", "value": 10
-      }, {
-        "name": "Ruby", "value": 8
-      }, {
-        "name": "C/C++", "value": 5
-      }, {
-        "name": "Python", "value": 5
-      }, {
-        "name": "Assembly (MIPS)", "value": 4
-      }, {
-        "name": "Java", "value": 6
-      }, {
-        "name": "PHP", "value": 7
-      }, {
-        "name": "Elixir", "value": 4
-      }
-    ],
-    "Frontend": [
-      {
-        "name": "HTML5", "value": 9
-      }, {
-        "name": "CSS", "value": 8
-      }, {
-        "name": "React", "value": 8
-      }, {
-        "name": "AngularJS v1", "value": 4
-      }, {
-        "name": "jQuery", "value": 7
-      }, {
-        "name": "Redux", "value": 9
-      }, {
-        "name": "Flow", "value": 8
-      }, {
-        "name": "Universal JS", "value": 10
-      }, {
-        "name": "NPM", "value": 9
-      }, {
-        "name": "Webpack", "value": 7
-      }, {
-        "name": "Gulp/Grunt", "value": 5
-      }, {
-        "name": "Bootstrap", "value": 10
-      }, {
-        "name": "Sass", "value": 8
-      }, {
-        "name": "Less", "value": 10
-      }
-    ],
-    "Backend": [
-      {
-        "name": "Express", "value": 10
-      }, {
-        "name": "PHP", "value": 6
-      }, {
-        "name": "PHPCake", "value": 4
-      }, {
-        "name": "Laravel", "value": 6
-      }, {
-        "name": "Zend Framework", "value": 6
-      }, {
-        "name": "Ruby On Rails", "value": 7
-      }, {
-        "name": "NodeJs", "value": 10
-      }
-    ],
-    "Quality Assurance": [
-      {
-        "name": "Jest", "value": 10
-      }, {
-        "name": "Enzyme", "value": 9
-      }, {
-        "name": "Jasmine", "value": 7
-      }, {
-        "name": "Sinon", "value": 7
-      }, {
-        "name": "RSpec", "value": 6
-      }, {
-        "name": "Ruby Test::Unit", "value": 5
-      }, {
-        "name": "Eslint", "value": 10
-      }, {
-        "name": "Rubocop", "value": 7
-      }
-    ],
-    "Tools & SO": [
-      {
-        "name": "Atom", "value": 10
-      }, {
-        "name": "Git", "value": 9
-      }, {
-        "name": "Chrome DevTools", "value": 9
-      }, {
-        "name": "Ubuntu", "value": 6
-      }, {
-        "name": "ArchLinux", "value": 8
-      }, {
-        "name": "Windows", "value": 3
-      }, {
-        "name": "MacOS", "value": 10
-      }
-    ],
-    "Database": [
-      {
-        "name": "MySQL", "value": 6
-      }, {
-        "name": "Postgress", "value": 6
-      }, {
-        "name": "SQlite", "value": 6
-      }, {
-        "name": "MongoDB", "value": 4
-      }, {
-        "name": "Firebase", "value": 6
-      }
-    ]
+    "Languages": [{
+      "name": "Javascript", "value": 10
+    }, {
+      "name": "Ruby", "value": 8
+    }, {
+      "name": "PHP", "value": 7
+    }, {
+      "name": "Java", "value": 6
+    }, {
+      "name": "C/C++", "value": 5
+    }, {
+      "name": "Python", "value": 5
+    }, {
+      "name": "Elixir", "value": 4
+    }, {
+      "name": "Assembly (MIPS)", "value": 4
+    }],
+    "Frontend": [{
+      "name": "HTML5",
+      "value": 9
+    }, {
+      "name": "Less",
+      "value": 10
+    }, {
+      "name": "Bootstrap",
+      "value": 10
+    }, {
+      "name": "Universal JS",
+      "value": 10
+    }, {
+      "name": "Redux",
+      "value": 9
+    }, {
+      "name": "NPM",
+      "value": 9
+    }, {
+      "name": "Flow",
+      "value": 8
+    }, {
+      "name": "Sass",
+      "value": 8
+    }, {
+      "name": "React",
+      "value": 8
+    }, {
+      "name": "CSS",
+      "value": 8
+    }, {
+      "name": "jQuery",
+      "value": 7
+    }, {
+      "name": "Webpack",
+      "value": 7
+    }, {
+      "name": "Gulp/Grunt",
+      "value": 5
+    }, {
+      "name": "AngularJS v1",
+      "value": 4
+    }],
+    "Backend": [{
+      "name": "Express",
+      "value": 10
+    }, {
+      "name": "NodeJs",
+      "value": 10
+    }, {
+      "name": "Ruby On Rails",
+      "value": 7
+    }, {
+      "name": "PHP",
+      "value": 6
+    }, {
+      "name": "Laravel",
+      "value": 6
+    }, {
+      "name": "Zend Framework",
+      "value": 6
+    }, {
+      "name": "PHPCake",
+      "value": 4
+    }],
+    "Quality Assurance": [{
+      "name": "Jest",
+      "value": 10
+    }, {
+      "name": "Eslint",
+      "value": 10
+    }, {
+      "name": "Enzyme",
+      "value": 9
+    }, {
+      "name": "Jasmine",
+      "value": 7
+    }, {
+      "name": "Sinon",
+      "value": 7
+    }, {
+      "name": "Rubocop",
+      "value": 7
+    }, {
+      "name": "RSpec",
+      "value": 6
+    }, {
+      "name": "Ruby Test::Unit",
+      "value": 5
+    }],
+    "Tools & SO": [{
+      "name": "Atom",
+      "value": 10
+    }, {
+      "name": "Chrome DevTools",
+      "value": 9
+    }, {
+      "name": "Git",
+      "value": 8
+    }, {
+      "name": "ArchLinux",
+      "value": 8
+    }, {
+      "name": "MacOS",
+      "value": 7
+    }, {
+      "name": "Ubuntu",
+      "value": 6
+    }, {
+      "name": "Windows",
+      "value": 3
+    }],
+    "Database": [{
+      "name": "MySQL",
+      "value": 6
+    }, {
+      "name": "Postgress",
+      "value": 6
+    }, {
+      "name": "SQlite",
+      "value": 6
+    }, {
+      "name": "Firebase",
+      "value": 6
+    }, {
+      "name": "MongoDB",
+      "value": 4
+    }]
   }
 }
