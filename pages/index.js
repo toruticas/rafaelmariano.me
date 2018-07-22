@@ -1,6 +1,7 @@
 import React from "react"
 import styled, { keyframes } from "styled-components"
 import fetch from "isomorphic-unfetch"
+import { Flex, Box } from 'grid-styled'
 
 import Layout from "../components/Layout"
 import Rating from "../components/Rating"
@@ -34,28 +35,17 @@ const Title = styled.h1`
 `
 
 const Article = styled.a`
-  text-decoration: none;
-  color: black;
-
-  :visited{
-    color: black;
-  }
-
-  :hover {
-    color: #979797;
-  }
-
   h2 {
-    margin-top: 32px;
-    margin-bottom: 0;
+    margin: 0;
 
     small {
+      margin-left: 15px;
       font-size: 14px;
     }
   }
 
   div {
-    margin-top: 5px;
+    margin-top: 12px;
   }
 
   span {
@@ -84,31 +74,39 @@ class Index extends React.Component {
     typing: false,
   }
 
-  componentDidMount() {
-    this.setState({ currentMessage: 0, currentPosition: this.intro[0].length })
+  timeout = null
 
-    if (process.env.NODE_ENV === "production") {
-      setTimeout(() => {
-        this.typeAction()
-      }, 1000);
-    }
+  componentWillMount() {
+    this.setState({ currentMessage: 0, currentPosition: this.intro[0].length })
+  }
+
+  componentWillUnmount() {
+    try {
+      clearTimeout(this.timeout)
+    } catch (e) {}
+  }
+
+  componentDidMount() {
+    this.timeout = setTimeout(() => {
+      this.typeAction()
+    }, 1000);
   }
 
   typeAction = () => {
     const message = this.intro[this.state.currentMessage]
-   this.setState({ typing: true })
+    this.setState({ typing: true })
 
     if (this.state.rewinding) {
-      console.log("rewinding", this.state.currentMessage, this.state.currentPosition);
+      // console.log("rewinding", this.state.currentMessage, this.state.currentPosition);
       if (this.state.currentPosition > 0) {
-        setTimeout(() => {
+        this.timeout = setTimeout(() => {
           this.setState({ currentPosition: this.state.currentPosition - 1 })
           this.typeAction()
         }, 30)
       } else {
         this.setState({ typing: false })
 
-        setTimeout(() => {
+        this.timeout = setTimeout(() => {
           if (this.state.currentMessage + 1 < this.intro.length) {
             this.setState({ currentMessage: this.state.currentMessage + 1 })
           } else {
@@ -121,16 +119,16 @@ class Index extends React.Component {
         }, 1000)
       }
     } else if (this.state.currentPosition < message.length) {
-      console.log("foward", this.state.currentMessage, this.state.currentPosition);
+      // console.log("foward", this.state.currentMessage, this.state.currentPosition);
       this.setState({ currentPosition: this.state.currentPosition + 1 })
 
-      setTimeout(() => {
+      this.timeout = setTimeout(() => {
         this.typeAction()
       }, Math.random() * (70 - 30) + 30)
     } else {
-      console.log("waiting", this.state.currentMessage, this.state.currentPosition);
+      // console.log("waiting", this.state.currentMessage, this.state.currentPosition);
       this.setState({ typing: false })
-      setTimeout(() => {
+      this.timeout = setTimeout(() => {
         this.setState({ rewinding: true })
         this.typeAction()
       }, 4000)
@@ -140,37 +138,57 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Row>
-          <Col md={1}>
-            <Image src="/static/images/me.jpg" data-rounded/>
+        <Flex flexWrap="wrap">
+          <Box pl={32} width={1}>
+            <Title>Rafael Mariano (Olinda)</Title>
+          </Box>
+
+          <Box p={16} pt={0} width={[1, 5/12, 5/12, 1/3 ]}>
+            <div style={{ padding: "0 10px" }}>
+              <Image src="/static/images/me.jpg" data-rounded/>
+            </div>
             <TypeWriter>
               {this.intro[this.state.currentMessage].slice(0, this.state.currentPosition)}
               <TypeWriterPipe typing={this.state.typing} />
             </TypeWriter>
-          </Col>
+          </Box>
 
-          <Col md={2}>
-            <Title>SOBRE MIM</Title>
+          <Box p={16} pt={0} width={[1, 7/12, 7/12, 2/3]}>
+            <p style={{ marginTop: 0 }}>
+              Sou bacharel<strike>ando</strike> em Sistemas de Informação pela Universidade de São Paulo, apaixonado por computação, música, cinema e história. Atualmente sou <strong>Frontend Software Engineer (Lead)</strong> na <a href="https://arquivei.com.br">Arquivei</a>, uma startup de dados residente na cidade de São Carlos - São Paulo.
+            </p>
 
-            <p>Olá, eu sou o Olinda. Sou apaixonado por computação, música e história. Atualmente trabalho como <strong>Frontend Developer</strong> na <a href="https://arquivei.com.br">Arquivei</a>, uma startup residente na cidade São Carlos - São Paulo.</p>
+            <p>
+              A minha afinidade com a programação começou bem cedo. Digitei o meu primeiro código antes dos 10 anos de idade reproduzindo algoritmos em G-BASIC dos manuais do <a href="http://retrogamernes.blogspot.com.br/2014/01/magic-computer-pc95-dynacom-videogames.html">Magic Computer PC95</a> que meu pai me dara. Aos 15 escrevi meus primeiros códigos em HTML com auxílio do <a href="https://pt.wikipedia.org/wiki/Microsoft_FrontPage">Microsoft Front Page</a> criando sites com conteúdos relacionado a games, sobretudo o Counter-Strike, e sobre a história do Egito antigo.
+            </p>
 
-            <p>A minha história na computação começou bem cedo criando os meus primeiros códigos com 10 anos de idade digitando algorítmos prontos em G-BASIC no meu <a href="http://retrogamernes.blogspot.com.br/2014/01/magic-computer-pc95-dynacom-videogames.html">Magic Computer PC95</a>. Aos 15 escrevi meus primeiros códigos em HTML com auxílio do <a href="https://pt.wikipedia.org/wiki/Microsoft_FrontPage">Microsoft Front Page</a> criando sites com conteúdos relacionado a games, sobretudo o Counter-Strike, e sobre a história do Egito antigo.</p>
+            <p>
+              Profissionalmente eu trabalho com arquitetura flux, javascript isomórfico, imutabilidade, NodeJS e React	&lt;3. Me considero proficiente em javascript. Desenvolvi uma arquitetura de dois contextos (visualização e estados). Sou lider técnico da equipe trabalhando na definição das diretrizes da aplicação de frontend, fazendo o treinamento técnico e auxiliando na contração de novos integrantes.
+            </p>
 
-            <p>Atualmente, no seu tempo livre, busco conteúdos relacionado ao ecossistema Javascript das mais diversas fontes criando POCs para entender os conceitos estudados na prática. Além disso, busca sempre ler livros relacionados à história do mundo para conhecer um pouco sobre o passado e entender o presente.</p>
-          </Col>
-        </Row>
+            <p>
+              Atualmente, no seu tempo livre, busco conteúdos relacionado ao ecossistema javascript, design de algoritmos e design UI/UX. Além disso, busca sempre ler livros relacionados à história do mundo para conhecer um pouco mais sobre o passado da humanidade.
+            </p>
+          </Box>
 
-        <hr />
+          <Box pt={16} pr={32} pb={16} pl={32} width={1}><hr/></Box>
+        </Flex>
 
-        <Col md={1}>
+
+        <Flex flexWrap="wrap">
           {this.props.articles.map(article => (
-            <Article href={article.link} key={article.createdAt}>
-              <h2>{article.title} <small>{article.createdAt}</small></h2>
-              <div>{article.tags.map(tag => <span key={tag}>{tag}</span>)}</div>
-              <p>{article.content}</p>
-            </Article>
+            <Box p={16} pt={10} pb={10} width={1} key={article.createdAt}>
+              <Article href={article.link}>
+                <h2>
+                  {article.title}
+                  <small>{(new Date(article.createdAt).toLocaleDateString('pt-BR'))}</small>
+                </h2>
+                <div>{article.tags.map(tag => <span key={tag}>{tag}</span>)}</div>
+                <p>{article.content}</p>
+              </Article>
+            </Box>
           ))}
-        </Col>
+        </Flex>
       </Layout>
     )
   }

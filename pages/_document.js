@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="shortcut icon" href="/static/favicon.ico" />
           <title>Rafael Mariano</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           {this.props.styleTags}
         </Head>
         <body>

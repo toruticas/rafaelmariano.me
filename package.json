@@ -15,6 +15,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
     "express": "^4.16.3",
+    "grid-styled": "^5.0.2",
     "isomorphic-unfetch": "^2.1.0",
     "next": "latest",
     "node-cache": "^4.2.0",
