@@ -4,6 +4,8 @@ import styled, { injectGlobal } from "styled-components"
 
 import Container from "./atoms/Container"
 
+// https://coolors.co/266dd3-586273-888098-cfb3cd-dfc2f2
+
 injectGlobal`
   body {
     margin: 0;
@@ -12,6 +14,7 @@ injectGlobal`
 
   h1, h2, h3, h4, h5, h6 {
     color: #194687;
+    ${'' /* color: #303B4E; */}
   }
 
   a {

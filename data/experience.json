@@ -1,0 +1,63 @@
+{
+  "jobs": [{
+    "company": {
+      "address": "São Carlos, SP",
+      "avatar": "/static/images/arquivei.png",
+      "name": "Arquivei"
+    },
+    "date": {
+      "start": "",
+      "end": null
+    },
+    "description": "Responsável por manter o projeto de frontend promovendo a evolução contínua da arquitetura e das tecnologias usadas. Hoje parte do foco do projeto está tanto em performance do projeto como performance da equipe.\n Participação na reestruturação dos times em torno de uma unidade lógica de negócio baseada no framework Squad do Spotify. Criação da Squad Growth responsável pela aquisição e retenção dos clientes na plataforma.\n Para tornar possível a evolução do projeto de frontend e do produto Arquivei foram usadas as seguintes tecnologias: Sagas, ImmutableJS, Kubernetes, Sketch, Photoshop, Design Sprint, técnicas de UI/UX.",
+    "position": "Frontend Software Engineer (Lead)"
+  }, {
+    "company": {
+      "address": "São Carlos, SP",
+      "avatar": "/static/images/arquivei.png",
+      "name": "Arquivei"
+    },
+    "date": {
+      "start": "",
+      "end": null
+    },
+    "description": "Responsável por planejar, arquitetar, prototipar e desenvolver o desmembramento de uma aplicação monolítica em uma arquitetura frontend-backend.\n Criação da equipe de frontend formalizando a linha de produção de software para o produto Arquivei dentro do processo de Scrum. Participação no processo seletivo para estagiários da equipe recém criada.\n O principal projeto neste cargo foi criar uma aplicação de frontend como um serviço onde o backend não necessite nenhum conhecimento sobre HTML, CSS ou JS. O principal destaque do projeto desenvolvido foi a estrutura de javascript isomórfico com a criação de um programa que tem um funcionamento/renderização tanto no cliente quando no servidor.\n Para tornar possível a construção deste projeto foram usadas as seguintes tecnologias: React, Redux, NodeJS, Webpack, Jest, Enzyme.",
+    "position": "Frontend Software Engineer"
+  }, {
+    "company": {
+      "address": "São Carlos, SP",
+      "avatar": "/static/images/arquivei.png",
+      "name": "Arquivei"
+    },
+    "date": {
+      "start": "",
+      "end": null
+    },
+    "description": "Entendimento do produto Arquivei. Conhecimento sobre documentos fiscais eletrônicos como NFe, NFSe, NFCe, CTe, CTe-SAT. Compreensão básica sobre alguns processos contábeis e tributários.\n Neste cargo foram aprendidas as tecnologias: PHP, Zend Framework, Docker, Docker-Compose, PSQL.",
+    "position": "Frontend Software (Internship)"
+  }, {
+    "company": {
+      "address": "São Carlos, SP",
+      "avatar": "/static/images/angular.png",
+      "name": "Angular Tecnologias"
+    },
+    "date": {
+      "start": "",
+      "end": null
+    },
+    "description": "Desenvolvimento e modelagem de aplicações Frontend e criação de APIs REST consumidas pelas plataformas Web, Android e IOS. Integração com serviços externos de autenticação como o Facebook e do Google Plus. Integração com serviços da AppStore e da GooglePlay como push notifications e serviços de pagamento. Controle de versionamento com SVN e Git.\n Os principais projetos desenvolvidos foram: PostoFiel, Vibarato, RASBQ e Paladium.\n Algumas das tecnologias usadas para o desenvolvimento destes projetos foram: AngularJS, Coffee Script, Mysql, Ruby on Rails, Grunt, Gulp, Java, Spring, PHP, Eclipse, Git.",
+    "position": "Analista em Desenvolvimento de Sistemas"
+  }, {
+    "company": {
+      "address": "São Carlos, SP",
+      "avatar": "/static/images/eic.png",
+      "name": "EIC - Espaço Interativo de Ciências"
+    },
+    "date": {
+      "start": "",
+      "end": null
+    },
+    "description": "Iniciação científica com foco em criação de jogos educativos voltado à alunos da rede pública de ensino. Desenvolvimento do jogo \"Linha do Tempo\" cujo objetivo era mostrar a história do conhecimento de forma dinâmica e interativa. Neste projeto foi criado uma interface web completa do jogo, um painel administrativo para tornar possível o gerenciamento do conteúdo da plataforma e uma API REST para ser consumida em plataformas Mobile.\n As tecnologias estudadas na iniciação científica foram: Bootstrap, Jquery, Ruby on Rails, REST.",
+    "position": "Iniciação Científica"
+  }]
+}
