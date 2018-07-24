@@ -61,7 +61,7 @@ const Article = styled.a`
 class Index extends React.Component {
   intro = [
     "Frontend Engineer at @arquivei (lead)",
-    "Bruto, Rustico e Sistemático",
+    "Bruto, Rústico e Sistemático",
     "I make internet",
     "Fofurizador de interfaces",
     "Comedor de ovos",
@@ -163,15 +163,15 @@ class Index extends React.Component {
             </p>
 
             <p>
-              A minha afinidade com a programação começou bem cedo. Digitei o meu primeiro código antes dos 10 anos de idade reproduzindo algoritmos em G-BASIC dos manuais do <a href="http://retrogamernes.blogspot.com.br/2014/01/magic-computer-pc95-dynacom-videogames.html">Magic Computer PC95</a> que meu pai me dara. Aos 15 escrevi meus primeiros códigos em HTML com auxílio do <a href="https://pt.wikipedia.org/wiki/Microsoft_FrontPage">Microsoft Front Page</a> criando sites com conteúdos relacionado a games, sobretudo o Counter-Strike, e sobre a história do Egito antigo.
+              A minha afinidade com a programação começou bem cedo. Digitei o meu primeiro código antes dos 10 anos de idade reproduzindo algoritmos em G-BASIC dos manuais do <a href="http://retrogamernes.blogspot.com.br/2014/01/magic-computer-pc95-dynacom-videogames.html">Magic Computer PC95</a> que meu pai havia me dado. Aos 15 escrevi meus primeiros códigos em HTML com auxílio do <a href="https://pt.wikipedia.org/wiki/Microsoft_FrontPage">Microsoft Front Page</a> criando sites com conteúdos relacionado a game (sobretudo o Counter-Strike) e sobre a história do Egito antigo.
             </p>
 
             <p>
-              Profissionalmente eu trabalho com arquitetura flux, javascript isomórfico, imutabilidade, NodeJS e React	&lt;3. Me considero proficiente em javascript. Desenvolvi uma arquitetura de dois contextos (visualização e estados). Sou lider técnico da equipe trabalhando na definição das diretrizes da aplicação de frontend, fazendo o treinamento técnico e auxiliando na contração de novos integrantes.
+              Profissionalmente eu trabalho com arquitetura flux, javascript isomórfico, imutabilidade, NodeJS e React	&lt;3. Me considero proficiente em javascript. Desenvolvi uma arquitetura de dois contextos (visualização e estados). Sou lider técnico da equipe trabalhando na definição das diretrizes da aplicação de frontend, fazendo o treinamento técnico e auxiliando na contratação de novos integrantes.
             </p>
 
             <p>
-              Atualmente, no seu tempo livre, busco conteúdos relacionado ao ecossistema javascript, design de algoritmos e design UI/UX. Além disso, busca sempre ler livros relacionados à história do mundo para conhecer um pouco mais sobre o passado da humanidade.
+              Atualmente, no meu tempo livre, busco conteúdos relacionados ao ecossistema javascript, design de algoritmos e design UI/UX. Além disso, busco sempre ler livros relacionados à história do mundo para conhecer um pouco mais sobre o passado da humanidade.
             </p>
           </Box>
 
