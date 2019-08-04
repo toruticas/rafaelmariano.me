@@ -13,15 +13,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.5.1",
-    "express": "^4.16.3",
+    "babel-plugin-styled-components": "^1.10.6",
+    "express": "^4.17.1",
     "grid-styled": "^5.0.2",
-    "isomorphic-unfetch": "^2.1.0",
-    "next": "latest",
-    "node-cache": "^4.2.0",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "rss-parser": "^3.4.2",
-    "styled-components": "^3.3.0"
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.0.3",
+    "node-cache": "^4.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rss-parser": "^3.7.2",
+    "styled-components": "^4.3.2",
+    "styled-tools": "^1.7.1"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-preset-next": "^1.2.0"
   }
 }

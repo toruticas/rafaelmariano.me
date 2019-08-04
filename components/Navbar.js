@@ -55,7 +55,7 @@ export default () => (
         </a>
       </li>
       <li>
-        <Link href="/experience">
+        <Link href="/experiences">
           <a>
             Experiência
           </a>

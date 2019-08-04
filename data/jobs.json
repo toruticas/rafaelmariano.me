@@ -6,26 +6,38 @@
       "name": "Arquivei"
     },
     "date": "Outubro de 2017 até o momento",
-    "description": "Responsável por manter o projeto de frontend promovendo a evolução contínua da arquitetura e das tecnologias usadas. Hoje parte do foco do projeto está tanto em performance do projeto como performance da equipe.\n Participação na reestruturação dos times em torno de uma unidade lógica de negócio baseada no framework Squad do Spotify. Criação da Squad Growth responsável pela aquisição e retenção dos clientes na plataforma.\n Para tornar possível a evolução do projeto de frontend e do produto Arquivei foram usadas as seguintes tecnologias: Sagas, ImmutableJS, Kubernetes, Sketch, Photoshop, Design Sprint, técnicas de UI/UX.",
+    "description": [
+      "Sou responsável por evoluir o projeto de frontend que alimenta o SaaS com foco em agilidade e na qualidade do processo de desenvolvimento. Das tecnologias inseridas no projeto e na stack da equipe: ImmutableJS, Styled-components, NextJS",
+      "Sou Responsável pela entrevista técnica dos processos seletivos de frontend em todos os níveis (estágio, jr, pleno e sênior).",
+      "Aprimorei o processo de integração contínua e entrega contínua das aplicações de frontend com Bitbucket-pipelines, Circle CI e Kubernetes",
+      "Participei na criação da equipe de design definindo os entregáveis para a equipe de frontend e participando dos processos seletivos. Durante esse período eu aprendi as ferramentas e tecnologias usadas pela equipe de design como Sketch, Zeplin, Invision, Figma, Photoshop, Design Sprint, teste de usabilidade e técnicas de UI/UX",
+      "Participei da reestruturação da engenharia baseada no framework Squad do Spotify, criando novos times (squads) e projetos. Atuação com diferentes metodologias nos times, como: waterfall, basecamp, scrum e kanban."
+    ],
     "position": "Frontend Software Engineer (Lead)"
   }, {
     "company": {
       "address": "São Carlos, SP",
-      "avatar": "/static/images/arquivei.png",
       "name": "Arquivei"
     },
     "date": "Setembro de 2016 à Outubro de 2017",
-    "description": "Responsável por planejar, arquitetar, prototipar e desenvolver o desmembramento de uma aplicação monolítica em uma arquitetura frontend-backend.\n Criação da equipe de frontend formalizando a linha de produção de software para o produto Arquivei dentro do processo de Scrum. Participação no processo seletivo para estagiários da equipe recém criada.\n O principal projeto neste cargo foi criar uma aplicação de frontend como um serviço onde o backend não necessite nenhum conhecimento sobre HTML, CSS ou JS. O principal destaque do projeto desenvolvido foi a estrutura de javascript isomórfico com a criação de um programa que tem um funcionamento/renderização tanto no cliente quando no servidor.\n Para tornar possível a construção deste projeto foram usadas as seguintes tecnologias: React, Redux, NodeJS, Webpack, Jest, Enzyme.",
+    "description": [
+      "Fui responsável por planejar, arquitetar e prototipar o desmembramento de uma aplicação monolítica em uma arquitetura frontend-backend.",
+      "Fui responsável por montar a equipe de frontend preparando os processos seletivos de estágio para a equipe, criando o andaime do projeto e o definindo o processo de desenvolvimento.",
+      "Desenvolvi a aplicação de frontend com server-side rendering (baseado no javascript universal) usando React, Redux, Less, Babel, ES+ (próxima geração), Webpack, NodeJS, Eslint, Jest, Enzyme."
+    ],
     "position": "Frontend Software Engineer"
   }, {
     "company": {
       "address": "São Carlos, SP",
-      "avatar": "/static/images/arquivei.png",
       "name": "Arquivei"
     },
     "date": "Junho a Setembro de 2016",
-    "description": "Entendimento do produto Arquivei. Conhecimento sobre documentos fiscais eletrônicos como NFe, NFSe, NFCe, CTe, CTe-SAT. Compreensão básica sobre alguns processos contábeis e tributários.\n Neste cargo foram aprendidas as tecnologias: PHP, Zend Framework, Docker, Docker-Compose, PSQL.",
-    "position": "Frontend Software (Internship)"
+    "description": [
+      "Aprendi todas as funcionalidade do SaaS Arquivei estudando todos os documentos fiscais eletrônicos como NFe, NFSe, NFCe, CTe, CFe-SAT, NFCe e MDFe. Além disso, aprendi o básico sobre alguns processos contábeis e tributários.",
+      "Desenvolvi funcionalidades em uma aplicação monolítica com PHP, Zend FrameWork, jQuery, Grunt, Docker, Docker-compose, Redis e PostgreSQL.",
+      "Reportei todas as atividades com o CTO através de metodologias ágeis (scrum)."
+    ],
+    "position": "Estagiário em Engenharia de Software"
   }, {
     "company": {
       "address": "São Carlos, SP",
@@ -33,7 +45,14 @@
       "name": "Angular Tecnologias"
     },
     "date": "Junho de 2015 a março de 2016",
-    "description": "Desenvolvimento e modelagem de aplicações Frontend e criação de APIs REST consumidas pelas plataformas Web, Android e IOS. Integração com serviços externos de autenticação como o Facebook e do Google Plus. Integração com serviços da AppStore e da GooglePlay como push notifications e serviços de pagamento. Controle de versionamento com SVN e Git.\n Os principais projetos desenvolvidos foram: PostoFiel, Vibarato, RASBQ e Paladium.\n Algumas das tecnologias usadas para o desenvolvimento destes projetos foram: AngularJS, Coffee Script, Mysql, Ruby on Rails, Grunt, Gulp, Java, Spring, PHP, Eclipse, Git.",
+    "description": [
+      "Desenvolvi software sob demanda de sistemas acadêmicos, sistemas para o agronegócio e sistemas de anúncio. Alguns projetos de atuação: Posto Fiel, Vibarato, RASBQ, Palladium e LogTrac.",
+      "Desenvolvi o frontend de aplicações SPAs com AngularJS, ES6, Bootstrap, SAAS, NPM e Grunt. Além disso, trabalhei com aplicações server-side rendering em Ruby On Rails e CoffeeScript com foco em SEO.",
+      "Desenvolvi APIs restful em PHP, Java, Spring Framework, Ruby On Rails, Devise, CanCanCan, OmniAuth, MySQL, PostgreSQL e SQL Server.",
+      "Integrei as aplicações desenvolvidos com sistemas de autenticação como Google+ e Facebook. Além disso, implementei integrações com portais de pagamento e sistemas de notificações (push) da Google Play e App Store.",
+      "Administrei instâncias menores na Azure e na AWS, deployando aplicações escritas em Ruby on Rails e automatizada com Capistrano.",
+      "Trabalhei com SVN e Git para controle de versão."
+    ],
     "position": "Analista em Desenvolvimento de Sistemas"
   }, {
     "company": {
@@ -42,7 +61,13 @@
       "name": "EIC - Espaço Interativo de Ciências"
     },
     "date": "Junho de 2014 a maio de 2015",
-    "description": "Iniciação científica com foco em criação de jogos educativos voltado à alunos da rede pública de ensino. Desenvolvimento do jogo \"Linha do Tempo\" cujo objetivo era mostrar a história do conhecimento de forma dinâmica e interativa. Neste projeto foi criado uma interface web completa do jogo, um painel administrativo para tornar possível o gerenciamento do conteúdo da plataforma e uma API REST para ser consumida em plataformas Mobile.\n As tecnologias estudadas na iniciação científica foram: Bootstrap, Jquery, Ruby on Rails, REST.",
+    "description": [
+      "Desenvolvi projetos socioeducativos para rede pública de ensino fundamental e médio. Além disso, trabalhei com diferentes profissionais da educação analisando os requisitos dos projetos, organizando o conteúdo das aplicações e desenvolvendo as plataformas.",
+      "Desenvolvi interfaces web para os alunos e painéis administrativos para gestão de conteúdo das plataformas, trabalhando com jQuery, AngularJS, CoffeeScript, Bootstrap e Grunt.",
+      "Desenvolvi APIs restful em Ruby On Rails, Devise, CanCanCan e MySQL.",
+      "Gerenciei um servidor ubuntu ‘on premise’ deployando todas as aplicações desenvolvidas.",
+      "Trabalhei com SVN para controle de versão."
+    ],
     "position": "Iniciação Científica"
   }]
 }

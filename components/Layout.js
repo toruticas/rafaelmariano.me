@@ -1,12 +1,12 @@
 import Navbar from "./Navbar"
 import Footer from "./Footer"
-import styled, { injectGlobal } from "styled-components"
+import styled, { createGlobalStyle } from "styled-components"
 
 import Container from "./atoms/Container"
 
 // https://coolors.co/266dd3-586273-888098-cfb3cd-dfc2f2
 
-injectGlobal`
+createGlobalStyle`
   body {
     margin: 0;
     color: #303B4E;

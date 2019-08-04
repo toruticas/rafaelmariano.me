@@ -26,7 +26,7 @@ app.prepare()
           link: item.link,
           tags: item.categories,
           title: item.title,
-        }))
+        })).filter(item => item.tags)
 
         myCache.set("MEDIUM_RSS", articles)
 
